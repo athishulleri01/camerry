@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    background-color: rgb(156, 64, 65);
+}
+
+.header {
+    position: fixed;
+    height: 83px;
+    padding-left: 80px;
+    padding-right: 80px;
+    width: 1363px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav {
+    height: 83px;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    height: 45px;
+}
+
+.mid-nav {
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mid-nav a {
+    color: white;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.mid-nav a:hover {
+    color: rgb(119, 115, 115);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+
+.social-media {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media i:hover {
+    border-radius: 50%;
+    background-color: rgb(119, 115, 115);
+}
+
+.main-image {
+    width: 100%;
+}
+
+.main-div {
+    width: auto;
+    height: 690px;
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.main-div img {
+    width: 555px;
+    height: 612px;
+    padding-left: 200px;
+}
+
+.description {
+    padding-left: 80px;
+    padding-top: 100px;
+}
+
+.font-family {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.descr-1 {
+    font-size: 14px;
+}
+
+.descr-2 {
+    font-size: 48px;
+    font-weight: 6;
+    letter-spacing: 1px;
+    line-height: 54px;
+}
+
+.descr-3 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+.main-div button{
+    width: 130px;
+    height: 45px;
+    background: transparent;
+    color: #bc9e33;
+    border: 2px solid #bc9e33;
+    
+}
+.main-div button:hover{
+    width: 130px;
+    height: 45px;
+    background: #bc9e33 ;
+    color: black;
+    border: 2px solid #bc9e33;
+    transition: background-color 1s;
+    
+}
+.main-footer{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(28, 28, 28);
+    height: 546px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 60px;
+}
+
+.footer button{
+    height: 45px;
+    width: 150px;
+    color: #7c682a;
+    background-color: transparent;
+    border: 4px solid #7c682a;
+    font-weight: 800;
+
+}
+.footer button:hover{
+    height: 45px;
+    width: 150px;
+    color: #7c682a;
+    background-color: transparent;
+    border: 4px solid #7c682a;
+    font-weight: 800;
+
+}
+.foot-heading{
+    padding-top: 20px;
+    color: #7c682a;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+.foot-para{
+    margin-top: -28px;
+    color: #d1bd74;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+.footer button{
+    margin-top: 60px;
+    margin-right: 150px;
+    height: 45px;
+    width: 150px;
+    color: #7c682a;
+    background-color: transparent;
+    border: 3px solid #7c682a;
+    font-weight: 200;
+
+}
+.footer button:hover{
+    height: 45px;
+    width: 150px;
+    color: #000000;
+    background-color: #7c682a;
+    border: 4px solid #7c682a;
+    font-weight: 200;
+
+}
+
+.footer-hr{
+    margin-top: 70px;
+    margin-left: 180px;
+    margin-right: 180px;
+    border-top: 1px solid #363636 !important;
+    
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    height: 280px;
+    align-items: center;
+}
+
+.about img{
+    margin-left: 100px;
+    width: 100px;
+}
+.more{
+    margin-right: 240px;
+    display: flex;
+    height: 130px;
+    flex-direction: column;
+    justify-content: space-around;
+   
+}
+.more a{
+    text-decoration: none;
+    color: #7c682a;
+}
+.more a:hover{
+    text-decoration: none;
+    color: #d1bd74;
+}
+
+.info p{
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 3px;
+    color: #7c682a;
+   
+}
+
+
+
+
+
+
